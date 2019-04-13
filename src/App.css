@@ -1,0 +1,172 @@
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+
+.center{
+  align-items: center;
+  position: relative;
+  text-align: center;
+  display: -ms-inline-grid;
+}
+
+.absoluteCenter {
+  position: relative;
+  object-position: center;
+  display: block;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.width100 {
+  width:100px;
+}
+.width500{
+  width:500px;
+}
+.width-fitbox{
+  display: block;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+/* Button-1*/
+
+.button-1{
+  background-color: #4CAF50;
+  border: none;
+  border-radius:8px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin:6px;
+}
+.button-1:hover{
+  background-color: green;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 80px 0 rgba(0,0,0,0.19);
+  border: inherit;
+}
+.button-1:active{
+  box-shadow: 2px 2px 2px gray;
+  border: inherit;
+}
+
+
+
+.Title{
+  color: white;
+  text-align: center;
+  transform: rotate(15deg);
+  background-color:black;
+  text-shadow: 0px 0px 6px white;
+  position: relative;
+  left: 85px;
+  display: -webkit-inline-box;
+  padding:10px;
+  margin: 30px;
+}
+
+.Sidenav{
+  width:300px;
+  height: 100%;
+  position: fixed;
+  left:0px;
+  background-color: black;
+  z-index: 1;
+}
+
+.content{
+  margin-left: 300px;
+  padding-left: 20px;
+}
+
+.box1{
+  display: block;
+  padding: 0px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.blueBack{
+  background-color: rgba(6, 53, 114, 0.801);
+}
+.whiteBack{
+  background-color: aliceblue;
+}
+.boxTitle{
+  margin: 0px;
+  padding-bottom: 6px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgba(9, 9, 78, 0.596);
+  border: 5px solid rgba(9, 9, 78, 0);
+  border-radius: inherit;
+}
+
+.whiteText {
+  color: #f1f1f1;
+}
+
+/* DROPDOWN LIST */
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 400px;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 42px;
+  background-color: #f9f9f9;
+  width: 390px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.inLine {
+  display: -webkit-inline-box;
+}
+
+.autoMargin{
+  margin: auto;
+}
